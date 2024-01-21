@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(20, 20, 20);
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
